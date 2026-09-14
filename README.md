@@ -1,8 +1,8 @@
 # Meditation Effects
 
-# Paola Castillo Camacho
+### Paola Castillo Camacho
 
-# UNAM ENES Morelia
+### UNAM ENES Morelia
 
 For this project, I want to model how meditation affects our body, especially the brain.
 To do it, I investigated two different models:
