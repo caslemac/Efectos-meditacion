@@ -86,6 +86,7 @@ $$
 
 Wilson–Cowan describes the *amplitude* of activity inside one brain region, while Kuramoto describes the *phase synchronization* between regions. Coupling them (a Wilson–Cowan oscillator per node, linked through Kuramoto-style phase coupling) is a common approach in whole-brain modeling:
 
+---
 
 **References**
 - Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *Lecture Notes in Physics*, 39, 420–422.
