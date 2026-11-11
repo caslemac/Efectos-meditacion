@@ -2,7 +2,13 @@
 
 ### Paola Castillo Camacho
 
-### UNAM ENES Morelia
+### Affiliations
+
+- Autonomous University of Mexico (UNAM)
+
+- National School of Higher Studies (ENES)
+
+## Description 
 
 For this project, I want to model how meditation affects our body, especially the brain.
 To do it, I investigated two different models:
