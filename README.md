@@ -44,7 +44,7 @@ $$
 \frac{d\theta_i}{dt} = \omega_i + K\,r\,\sin(\psi - \theta_i)
 $$
 
-**Critical coupling** (for a symmetric, unimodal $g(\omega)$): synchronization emerges when
+**Critical coupling** (for a symmetric, unimodal $g(\omega)$ ): synchronization emerges when
 
 $$
 K > K_c = \frac{2}{\pi\, g(0)}
