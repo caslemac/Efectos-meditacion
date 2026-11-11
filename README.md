@@ -27,7 +27,7 @@ $$
 - $\omega_i$: natural frequency of oscillator $i$, usually drawn from a distribution $g(\omega)$ (e.g., Gaussian)
 - $K$: coupling strength between oscillators
 - $N$: number of oscillators
-- $\sin(\theta_j - \theta_i)$: pulls oscillator $i$ toward the phase of oscillator $j$
+- $\sin(\theta_j - \theta_i)$: pulls oscillator  $i$  toward the phase of oscillator  $j$
 
 **Order parameter (measure of synchrony)**
 
