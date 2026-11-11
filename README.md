@@ -35,7 +35,7 @@ $$
 r(t)\,e^{i\psi(t)} = \frac{1}{N}\sum_{j=1}^{N} e^{i\theta_j(t)}
 $$
 
-- $r \in [0,1]$: $r \approx 0$ means incoherent (desynchronized), $r \approx 1$ means fully synchronized
+- $r \in [0,1]$:  $r \approx 0$ means incoherent (desynchronized),  $r \approx 1$ means fully synchronized
 - $\psi$: average phase of the population
 
 **Mean-field form** (equivalent, useful for analysis and faster simulation)
