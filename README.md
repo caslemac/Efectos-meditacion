@@ -61,11 +61,11 @@ And I want to compare in the models a meditative state and one of imbalance such
 **Governing equations**
 
 $$
-\tau_E \frac{dE}{dt} = -E + \left(1 - r_E E\right) S_E\!\left(w_{EE}E - w_{EI}I + P_E\right)
+\tau_E \frac{dE}{dt} = -E + \left(1 - r_E E\right) S_E\!\left(w_{EE} E - w_{EI} I + P_E\right)
 $$
 
 $$
-\tau_I \frac{dI}{dt} = -I + \left(1 - r_I I\right) S_I\!\left(w_{IE}E - w_{II}I + P_I\right)
+\tau_I \frac{dI}{dt} = -I + \left(1 - r_I I\right) S_I\!\left(w_{IE} E - w_{II} I + P_I\right)
 $$
 
 - $E(t), I(t)$: fraction of active excitatory / inhibitory neurons (between 0 and 1)
