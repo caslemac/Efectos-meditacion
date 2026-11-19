@@ -78,7 +78,7 @@ For a true comparison of the periods before and during meditation, the dataset m
 
 ## Planned Analysis
 
-1. Select a public EEG dataset with clearly labeled conditions.
+1. Select a public EEG dataset with clearly labeled conditions. This project uses the OpenNeuro dataset ds003969 (version 1.0.0) [1].
 2. Review the channels, sampling rate, comparable time intervals, and artifacts.
 3. Filter the signals in a frequency band of interest, initially alpha (8–13 Hz).
 4. Extract the instantaneous phase of each filtered signal.
@@ -91,13 +91,11 @@ For a true comparison of the periods before and during meditation, the dataset m
 
 
 **References**
+[1] OpenNeuro. Dataset ds003969, version 1.0.0. https://openneuro.org/datasets/ds003969/versions/1.0.0
 - Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *Lecture Notes in Physics*, 39, 420–422.
 - Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
 - Strogatz, S. H. (2000). From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators. *Physica D*, 143, 1–20.
 - Acebrón, J. A. et al. (2005). The Kuramoto model: A simple paradigm for synchronization phenomena. *Reviews of Modern Physics*, 77, 137–185.
 - Breakspear, M., Heitmann, S., & Daffertshofer, A. (2010). Generative models of cortical oscillations. *Frontiers in Human Neuroscience*, 4, 190.
-- Wilson, H. R., & Cowan, J. D. (1972). Excitatory and inhibitory interactions in localized populations of model neurons. *Biophysical Journal*, 12(1), 1–24.
-- Wilson, H. R., & Cowan, J. D. (1973). A mathematical theory of the functional dynamics of cortical and thalamic nervous tissue. *Kybernetik*, 13(2), 55–80.
 - Ermentrout, G. B., & Terman, D. H. (2010). *Mathematical Foundations of Neuroscience*. Springer.
-- Cowan, J. D., Neuman, J., & van Drongelen, W. (2016). Wilson–Cowan equations for neocortical dynamics. *Journal of Mathematical Neuroscience*, 6, 1.
 - Cabral, J., Hugues, E., Sporns, O., & Deco, G. (2011). Role of local network oscillations in resting-state functional connectivity. *NeuroImage*, 57(1), 130–139.
