@@ -11,11 +11,12 @@
 ## Description 
 
 For this project, I want to model how meditation affects our body, especially the brain.
-To do it, I investigated two different models:
 
 ## Kuramoto Model (phase synchronization):
 
-A mathematical model describing how a group of oscillators (like brain waves) synchronize over time. It is used to represent how meditation can increase coherence between different brain regions.
+The Kuramoto model is a mathematical model, expressed as a system of coupled ordinary differential equations (ODEs), that describes how a group of oscillators (like brain waves) synchronize over time. Each oscillator has its own natural frequency, and the coupling between them pulls their phases together.
+
+In this project, it is going to be used to represent how meditation can increase coherence between different brain regions. Since the system has no simple closed-form solution, it will be solved numerically using the fourth-order Runge-Kutta method (RK4).
 
 **Governing equation**
 
