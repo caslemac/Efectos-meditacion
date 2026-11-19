@@ -78,7 +78,7 @@ For a true comparison of the periods before and during meditation, the dataset m
 
 ## Planned Analysis
 
-1. Select a public EEG dataset with clearly labeled conditions. This project uses the OpenNeuro dataset ds003969 (version 1.0.0) [1].
+1. Select a public EEG dataset with clearly labeled conditions. This project uses the OpenNeuro dataset ds003969 (version 1.0.0).
 2. Review the channels, sampling rate, comparable time intervals, and artifacts.
 3. Filter the signals in a frequency band of interest, initially alpha (8–13 Hz).
 4. Extract the instantaneous phase of each filtered signal.
@@ -91,7 +91,8 @@ For a true comparison of the periods before and during meditation, the dataset m
 
 
 **References**
-[1] OpenNeuro. Dataset ds003969, version 1.0.0. https://openneuro.org/datasets/ds003969/versions/1.0.0
+
+- OpenNeuro. Dataset ds003969, version 1.0.0. https://openneuro.org/datasets/ds003969/versions/1.0.0
 - Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *Lecture Notes in Physics*, 39, 420–422.
 - Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
 - Strogatz, S. H. (2000). From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators. *Physica D*, 143, 1–20.
