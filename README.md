@@ -52,6 +52,43 @@ K > K_c = \frac{2}{\pi\, g(0)}
 $$
 
 ---
+## Brain Waves and EEG
+
+Because this project will use EEG data extracted from several published studies, it is important to first define what an EEG is and which brain waves it records. For this explanation we will use hypothetical data, so that the results presented later in the project can be understood more easily.
+
+Electroencephalography (EEG) records differences in electrical potential on the scalp, which reflect the combined activity of large populations of neurons. EEG signals are commonly studied by dividing them into frequency bands. The boundaries between bands are approximate and vary across studies.
+
+| Band  | Approximate frequency | Common associations                                      |
+|-------|-----------------------|----------------------------------------------------------|
+| Delta | 0.5–4 Hz              | Deep sleep                                               |
+| Theta | 4–8 Hz                | Drowsiness, memory, and certain meditative practices     |
+| Alpha | 8–13 Hz               | Relaxed wakefulness, frequently with eyes closed         |
+| Beta  | 13–30 Hz              | Cognitive and motor activity                             |
+| Gamma | 30–80 Hz              | Sensory and cognitive processing                         |
+
+## Phase Synchronization and Meditation
+
+Two measures must be distinguished. **Band power** is the intensity of a signal within a given frequency range, whereas **phase synchronization** is the temporal alignment of the phases of different signals. A change in one does not necessarily imply a change in the other, so this project will analyze them separately.
+
+## Hypothesis
+
+We will study whether a meditative condition shows measurable changes in phase synchronization relative to a reference condition.
+
+For a true comparison of the periods before and during meditation, the dataset must identify both periods for the same participants. If a dataset only contains meditation and active thinking, the comparison will be described as *meditation versus active thinking*, not as *before versus after*.
+
+## Planned Analysis
+
+1. Select a public EEG dataset with clearly labeled conditions.
+2. Review the channels, sampling rate, comparable time intervals, and artifacts.
+3. Filter the signals in a frequency band of interest, initially alpha (8–13 Hz).
+4. Extract the instantaneous phase of each filtered signal.
+5. Compute phase synchronization metrics and plot their time series.
+6. Compare the experimental metrics with the predictions of the Kuramoto model, explicitly stating the model's limitations.
+
+
+
+
+
 
 **References**
 - Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *Lecture Notes in Physics*, 39, 420–422.
