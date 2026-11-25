@@ -54,21 +54,19 @@ $$
 ---
 ## Brain Waves and EEG
 
-Because this project will use EEG data extracted from several published studies, it is important to first define what an EEG is and which brain waves it records. For this explanation we will use hypothetical data, so that the results presented later in the project can be understood more easily.
+For this project, understanding brain waves and their frequency bands is essential for defining the natural frequencies of the oscillators in the Kuramoto model.
 
-Electroencephalography (EEG) records differences in electrical potential on the scalp, which reflect the combined activity of large populations of neurons. EEG signals are commonly studied by dividing them into frequency bands. The boundaries between bands are approximate and vary across studies.
+Electroencephalography (EEG) records differences in electrical potential on the scalp, which reflect the combined activity of large populations of neurons. EEG signals are commonly divided into frequency bands, whose boundaries are approximate and may vary across studies.
 
-| Band  | Approximate frequency | Common associations                                      |
-|-------|-----------------------|----------------------------------------------------------|
-| Delta | 0.5–4 Hz              | Deep sleep                                               |
-| Theta | 4–8 Hz                | Drowsiness, memory, and certain meditative practices     |
-| Alpha | 8–13 Hz               | Relaxed wakefulness, frequently with eyes closed         |
-| Beta  | 13–30 Hz              | Cognitive and motor activity                             |
-| Gamma | 30–80 Hz              | Sensory and cognitive processing                         |
+| Band  | Approximate Frequency | Common Associations |
+|---|---|---|
+| Delta | 0.5–4 Hz | Deep sleep |
+| Theta | 4–8 Hz | Drowsiness, memory, and certain meditative practices |
+| Alpha | 8–13 Hz | Relaxed wakefulness |
+| Beta | 13–30 Hz | Cognitive and motor activity |
+| Gamma | 30–80 Hz | Sensory and cognitive processing |
 
-## Phase Synchronization and Meditation
-
-Two measures must be distinguished. **Band power** is the intensity of a signal within a given frequency range, whereas **phase synchronization** is the temporal alignment of the phases of different signals. A change in one does not necessarily imply a change in the other, so this project will analyze them separately.
+These frequency bands serve as a reference for defining the different scenarios simulated in this project.
 
 ## Frequency Selection
 
