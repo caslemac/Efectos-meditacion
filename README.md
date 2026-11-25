@@ -8,9 +8,11 @@
 
 - National School of Higher Studies (ENES)
 
-## Description 
+## Description
 
-For this project, I want to model how meditation affects our body, especially the brain.
+This project aims to use the Kuramoto model to simulate the behavior of different brainwave frequencies and analyze their levels of phase synchronization under different mental and cognitive states.
+
+The main objective is to investigate how natural frequencies and coupling strength influence synchronization between oscillators.
 
 ## Kuramoto Model (phase synchronization):
 
