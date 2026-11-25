@@ -92,14 +92,53 @@ It is important to emphasize that these frequency ranges represent a simplified 
 
 
 
+## References
 
-**References**
+### Kuramoto Model
 
-- OpenNeuro. Dataset ds003969, version 1.0.0. https://openneuro.org/datasets/ds003969/versions/1.0.0
-- Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *Lecture Notes in Physics*, 39, 420–422.
-- Kuramoto, Y. (1984). *Chemical Oscillations, Waves, and Turbulence*. Springer.
-- Strogatz, S. H. (2000). From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators. *Physica D*, 143, 1–20.
-- Acebrón, J. A. et al. (2005). The Kuramoto model: A simple paradigm for synchronization phenomena. *Reviews of Modern Physics*, 77, 137–185.
-- Breakspear, M., Heitmann, S., & Daffertshofer, A. (2010). Generative models of cortical oscillations. *Frontiers in Human Neuroscience*, 4, 190.
-- Ermentrout, G. B., & Terman, D. H. (2010). *Mathematical Foundations of Neuroscience*. Springer.
-- Cabral, J., Hugues, E., Sporns, O., & Deco, G. (2011). Role of local network oscillations in resting-state functional connectivity. *NeuroImage*, 57(1), 130–139.
+- Acebrón, J. A., Bonilla, L. L., Pérez Vicente, C. J.,
+  Ritort, F., & Spigler, R. (2005).
+  The Kuramoto model: A simple paradigm for synchronization
+  phenomena. Reviews of Modern Physics, 77, 137–185.
+  https://doi.org/10.1103/RevModPhys.77.137
+
+### EEG and Brain Waves
+
+- Newson, J. J., & Thiagarajan, T. C. (2019).
+  EEG Frequency Bands in Psychiatric Disorders:
+  A Review of Resting State Studies.
+  Frontiers in Human Neuroscience, 12, 521.
+  https://doi.org/10.3389/fnhum.2018.00521
+
+- Lachaux, J. P., Rodriguez, E., Martinerie, J.,
+  & Varela, F. J. (1999).
+  Measuring phase synchrony in brain signals.
+  Human Brain Mapping, 8(4), 194–208.
+  https://pubmed.ncbi.nlm.nih.gov/10619414/
+
+### Mental and Cognitive States
+
+- Travis, F., & Shear, J. (2010).
+  Focused attention, open monitoring and automatic
+  self-transcending: Categories to organize meditations
+  from Vedic, Buddhist and Chinese traditions.
+  Consciousness and Cognition, 19(4), 1110–1118.
+  https://doi.org/10.1016/j.concog.2010.01.007
+
+- Vanhollebeke, G., et al. (2022).
+  The neural correlates of psychosocial stress:
+  A systematic review and meta-analysis of spectral
+  analysis EEG studies.
+  https://pubmed.ncbi.nlm.nih.gov/35573807/
+
+- Cavanagh, J. F., & Frank, M. J. (2014).
+  Frontal theta as a mechanism for cognitive control.
+  Trends in Cognitive Sciences, 18(8), 414–421.
+  https://doi.org/10.1016/j.tics.2014.04.012
+
+### Numerical Methods
+
+- Hairer, E., Nørsett, S. P., & Wanner, G. (1993).
+  Solving Ordinary Differential Equations I:
+  Nonstiff Problems. Springer.
+  https://doi.org/10.1007/978-3-540-78862-1
