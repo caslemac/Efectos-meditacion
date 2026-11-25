@@ -70,20 +70,23 @@ Electroencephalography (EEG) records differences in electrical potential on the 
 
 Two measures must be distinguished. **Band power** is the intensity of a signal within a given frequency range, whereas **phase synchronization** is the temporal alignment of the phases of different signals. A change in one does not necessarily imply a change in the other, so this project will analyze them separately.
 
-## Hypothesis
+## Frequency Selection
 
-We will study whether a meditative condition shows measurable changes in phase synchronization relative to a reference condition.
+Initially, this project aimed to use real electroencephalography (EEG) data. However, the limited availability of open-access datasets and the lack of suitable recordings for the scenarios of interest made this approach difficult to implement.
 
-For a true comparison of the periods before and during meditation, the dataset must identify both periods for the same participants. If a dataset only contains meditation and active thinking, the comparison will be described as *meditation versus active thinking*, not as *before versus after*.
+Therefore, general brainwave frequency ranges associated with different mental and cognitive states were selected to simulate and analyze synchronization using the Kuramoto model.
 
-## Planned Analysis
+| Scenario | Frequency Band | Proposed Range |
+|---|---|---|
+| Transcendental Meditation | Alpha | 8–12 Hz |
+| Stress | High Beta | 23–30 Hz |
+| Anxiety | Beta | 13–30 Hz |
+| Cognitive Effort | Frontal Theta | 4–7 Hz |
 
-1. Select a public EEG dataset with clearly labeled conditions. This project uses the OpenNeuro dataset ds003969 (version 1.0.0).
-2. Review the channels, sampling rate, comparable time intervals, and artifacts.
-3. Filter the signals in a frequency band of interest, initially alpha (8–13 Hz).
-4. Extract the instantaneous phase of each filtered signal.
-5. Compute phase synchronization metrics and plot their time series.
-6. Compare the experimental metrics with the predictions of the Kuramoto model, explicitly stating the model's limitations.
+The objective is to analyze how natural frequencies and coupling strength affect synchronization between oscillators.
+
+It is important to emphasize that these frequency ranges represent a simplified approximation of brain activity. Therefore, the results are theoretical and exploratory rather than a direct representation of actual brain dynamics.
+
 
 
 
