@@ -91,9 +91,23 @@ The objective is to analyze how natural frequencies and coupling strength affect
 
 It is important to emphasize that these frequency ranges represent a simplified approximation of brain activity. Therefore, the results are theoretical and exploratory rather than a direct representation of actual brain dynamics.
 
-## Visualization of the Kuramoto model
+
+## Kuramoto Model Simulation Results
+
+To illustrate the synchronization mechanism of the Kuramoto model, an initial numerical simulation was performed to analyze the evolution of the oscillators and the order parameter over time.
 
 <img src="resultados/animaciones/kuramoto.gif" alt="gif_kuramoto" width="600">
+
+| State | Order parameter |
+|---|---:|
+| Initial state | 0.560 |
+| Final state | 0.954 |
+
+Initially, the oscillators exhibited partial phase synchronization. As the system evolved, the coupling between oscillators increased their phase coherence, resulting in a final order parameter of 0.954, which is close to complete phase synchronization.
+
+The order parameter increased by approximately 70.36% relative to its initial value.
+
+These results illustrate how interactions between oscillators can produce collective synchronization and provide a mathematical foundation for the subsequent analysis of brain wave synchronization
 
 
 ## References
