@@ -70,6 +70,10 @@ Electroencephalography (EEG) records differences in electrical potential on the 
 
 These frequency bands serve as a reference for defining the different scenarios simulated in this project.
 
+Here is a graph made with Python of what brain waves would hypothetically look like.
+
+<img src="resultados/graficas/bandas_eeg_sinteticas.png" alt="ondas_cerebrales" width="400">
+
 ## Frequency Selection
 
 Initially, this project aimed to use real electroencephalography (EEG) data. However, the limited availability of open-access datasets and the lack of suitable recordings for the scenarios of interest made this approach difficult to implement.
