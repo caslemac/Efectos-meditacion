@@ -91,9 +91,9 @@ The objective is to analyze how natural frequencies and coupling strength affect
 
 It is important to emphasize that these frequency ranges represent a simplified approximation of brain activity. Therefore, the results are theoretical and exploratory rather than a direct representation of actual brain dynamics.
 
+## Visualization of the Kuramoto model
 
-
-
+<img src="animaciones/kuramoto.gif" alt="gif_kuramoto" width="400">
 
 
 ## References
