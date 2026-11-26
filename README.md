@@ -1,4 +1,4 @@
-# Meditation Effects
+# Frequency modeling in different cognitive states
 
 ### Paola Castillo Camacho
 
