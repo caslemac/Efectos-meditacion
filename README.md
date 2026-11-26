@@ -93,7 +93,7 @@ It is important to emphasize that these frequency ranges represent a simplified 
 
 ## Visualization of the Kuramoto model
 
-<img src="animaciones/kuramoto.gif" alt="gif_kuramoto" width="400">
+<img src="resultados/animaciones/kuramoto.gif" alt="gif_kuramoto" width="400">
 
 
 ## References
