@@ -72,7 +72,7 @@ These frequency bands serve as a reference for defining the different scenarios 
 
 Here is a graph made with Python of what brain waves would hypothetically look like.
 
-<img src="resultados/graficas/bandas_eeg_sinteticas.png" alt="ondas_cerebrales" width="400">
+<img src="resultados/graficas/bandas_eeg_sinteticas.png" alt="ondas_cerebrales" width="500">
 
 ## Frequency Selection
 
@@ -93,7 +93,7 @@ It is important to emphasize that these frequency ranges represent a simplified 
 
 ## Visualization of the Kuramoto model
 
-<img src="resultados/animaciones/kuramoto.gif" alt="gif_kuramoto" width="400">
+<img src="resultados/animaciones/kuramoto.gif" alt="gif_kuramoto" width="600">
 
 
 ## References
